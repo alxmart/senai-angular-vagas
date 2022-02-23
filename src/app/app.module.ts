@@ -7,9 +7,7 @@ import { Teste2Component } from './teste2/teste2.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    TesteluizComponent,
-    Teste2Component
+    AppComponent
   ],
   imports: [
     BrowserModule
