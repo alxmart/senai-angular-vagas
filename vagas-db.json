@@ -1,0 +1,25 @@
+{
+  "vagas": [
+    {
+      "id": 1,
+      "nome": "Desenvolvedor Front End Junior",
+      "foto": "foto1",
+      "descricao": "Trabalhar com HTML, CSS, JS, SaSS",
+      "salario": 4500
+    },
+    {
+      "id": 2,
+      "nome": "Desenvolvedor Android Junior",
+      "foto": "foto2",
+      "descricao": "Trabalhar com Android, Kotlin, Jetpack Compose",
+      "salario": 5000
+    },
+    {
+      "id": 3,
+      "nome": "Desenvolvedor Flutter Junior",
+      "foto": "foto3",
+      "descricao": "Trabalhar com Dart, Flutter",
+      "salario": 4800
+    }
+  ]
+}
