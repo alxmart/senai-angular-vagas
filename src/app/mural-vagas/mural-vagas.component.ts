@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { VagasService } from '../vagas.service';
 
 @Component({
   selector: 'app-mural-vagas',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MuralVagasComponent implements OnInit {
 
-  constructor() { }
+  public vagas: Vaga[] = [];
+  
+
+
+  constructor(private _vagasService: VagasService) { }
 
   ngOnInit(): void {
   }
